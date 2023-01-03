@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="to-do-list-container">
+
+            <div class="to-do-list-title">
+                <h1>
+                    My Todo-s
+                </h1>
+            </div>
+
+            <div class="to-do-list-form">
+                <form>
+                    <input type="text" placeholder="Add new...">
+                    <input type="date">
+                    <input type="submit" value="Add">
+                </form>
+            </div>
+            
+            <div class="to-do-list-items">
+                <div class="to-do-items-list">
+                    <ul>
+                        <li>Buy groceries for next week</li>
+                        <li>Renew car insuarance</li>
+                        <li>Signup for online course</li>
+                    </ul>
+                </div>
+                <div class="to-do-list-filter-section">
+                    <div class="to-do-list-filter-form">
+                        <form>
+                            <label>Filter</label>
+                            <select id="task-category" name="task-category">
+                                <option value="all">All</option>
+                                <option value="mandatory">Mandatory</option>
+                                <option value="optional">Optional</option>
+                            </select>
+
+                            <label>Sort</label>
+                            <select id="added-date" name="added-date">
+                                <option value="">Added date</option>
+                                <option value="">Yesterday</option>
+                                <option value="">Other day</option>
+                            </select>
+                        </form>
+                        <div class="filter-query">
+                            <div class="filtered-date">
+                                <p>
+                                    28th Jun 2020
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
