@@ -1,0 +1,22 @@
+body {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 80vw;
+
+}
+
+.main-container {
+    border: 3px blue solid;
+}
+
+.to-do-list-items {
+    display: flex;
+}
+
+.to-do-list-filter-section {
+    border: 3px green solid;
+}
+ 
